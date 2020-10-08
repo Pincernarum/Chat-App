@@ -1,0 +1,31 @@
+#register-container {
+    height: 100vh;
+    display: flex;
+}
+#register-background-image{
+    height: 100%;
+    width: 70%;
+    background-image: url(../images/worktable.jpg);
+    background-size: cover;
+}
+#register-form-wrapper{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+#register-container #register-form {
+    padding: 0 20px;
+}
+#register-container .name-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#register-container .name-wrapper .input-wrapper {
+    width: 48%;
+}
+#register-container #register-form-action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
